@@ -1,0 +1,29 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face{
+	font-family: 'DoHyeon-Regular';
+	src : url('../fonts/DoHyeon-Regular.ttf');
+}
+@font-face{
+	font-family: 'PT_Sans-Web-Bold';
+	src : url('../fonts/PT_Sans-Web-Bold.ttf');
+}
+body{
+	font-family: "PT_Sans-Web-Bold";
+}
+.margin-left{
+	margin-left:20px;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+
+/*END*/

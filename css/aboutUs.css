@@ -1,0 +1,149 @@
+.tab1{
+	margin: 10%  0 5% 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+h1{
+	font-family: "DoHyeon-Regular";
+}
+.tab1 .tab1_left{
+	width: 49%;
+	line-height: 22px;
+}
+.tab1 .tab1_left table tr td:nth-child(2){
+	padding-left: 5%;
+}
+.tab1 .tab1_left .borderBox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.tab1 .tab1_left .borderBox .border_Item{
+	border:1px solid #0071b8;
+	width: 27%;
+	border-radius: 10px;
+	padding: 2%;
+	overflow: hidden;
+}
+.tab1 .tab1_left .borderBox .border_Item i{
+	color:#717070;
+	font-weight: bold;
+}
+.tab1 .tab1_left .borderBox .border_Item p{
+	font-size: .9vw;
+
+}
+
+.tab1 .tab1_right{
+	width: 30%;
+
+}
+.tab1 h1{
+	color: #0071b8;
+	line-height: 100px;
+	font-size: 2vw;
+
+}
+.tab1 .Tab1imgbox{
+	background: url("../img/icon/circle.svg");
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.tab1 .Tab1imgbox .top{
+	position: absolute;
+	top:-8%;
+	left:36%;
+	color: #cf4f33;
+	display: flex;
+	flex-direction: row;
+}
+.tab1 .Tab1imgbox .top img{
+	width: 20px;
+	height: 20px;
+	padding: 3px 0 0 10px;
+}
+.tab1 .Tab1imgbox .top img:hover{
+	width: 25px;
+	width: 25px;
+}
+.tab1 .Tab1imgbox .center{
+	position: absolute;
+	top:50%;
+	font-size: 10px;
+	left:22%;
+}
+.tab1 .Tab1imgbox .bottom{
+	position: absolute;
+	bottom:4%;
+	left:43%;
+	color: #fff;
+}
+.tab1  .yuan b{
+	color: #cf4f33;
+	font-size: 20px;
+}
+.tab1  .yuan{
+	font-size: 12px;
+}
+.line_height{
+	line-height: 25px;
+}
+
+
+@media screen and (max-width: 734px) {
+    .tab1 h1{
+    	font-size: 3vw;
+    }
+	.tab1 .tab1_left{
+		width: 100%;
+		padding: 3%;
+	}
+	.tab1 .tab1_right{
+		width: 100%;
+		padding: 3%;
+	}
+	.tab1 .Tab1imgbox{
+		width: 230px;
+	}
+}
+@media screen and (max-width: 620px) {
+	.tab1 .Tab1imgbox{
+		width: 210px;
+	}
+	.tab1 .Tab1imgbox .bottom{
+		bottom: 18%;
+	}
+	.tab1 .Tab1imgbox .center{
+		top: 40%;
+	}
+}
+@media screen and (max-width: 563px) {
+	.tab1 .Tab1imgbox{
+		width: 190px;
+	}
+	.tab1 .Tab1imgbox .bottom{
+		bottom: 25%;
+	}
+	.tab1 .Tab1imgbox .center{
+		top: 40%;
+		left: 19%;
+	}
+}
+@media screen and (max-width: 360px) {
+	.tab1 {
+		margin-top: 20%;
+	}
+	.tab1 .tab1_left table tr td:nth-child(1){
+	padding-left: 2%;
+}
+	
+}
+

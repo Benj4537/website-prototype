@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="HeaderimgBox">
+			<a href="index.html">
+				<img src="img/LOGO.png">
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="aboutUs.html">ABOUT US</a></li>
+				<li><a href="index.html#tab3">STUDENT ACCESS</a></li>
+				<li><a href="index.html#tab3">BUSINESS</a></li>
+				<li><a href="index.html#tab3">JOIN US</a></li>
+				<li class="activeNaver"><a href="donation.html">Donate</a></li>
+			</ul>
+		</nav>
+		<div class="user">
+			<div class="user_IN">
+				<span><a href="register.html">SIGN IN</a></span>
+			</div>
+			<div class="user_UP">
+				<a href="register.html">
+					<i class="fa fa-user-circle-o fa-2x"></i>
+					<p>SIGN UP</p>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<h2 class="text-center">REGISTER NOW</h2>
+	<section class="tab1 text-center">	
+		<form action="#">
+			<div class="radioBox">
+				<label>MR<input type="radio" name="sex" checked></label>
+				<label>Ms<input type="radio" name="sex"></label>
+				<label>Mrs<input type="radio" name="sex"></label>
+			</div>
+			<div class="inputBox">
+				<label><input type="input" name=""><span>first name</span></label>
+				<label><input type="input" name=""><span>middle name</span></label>
+				<label><input type="input" name=""><span>family name</span></label>
+			</div>
+			<div class="qtBox">
+				<label>
+					<span>data of birth:</span>
+					<div class="inputBoxz">
+						<input type="date" name="">
+					</div>
+				</label>
+				<label>
+					<span>user name:</span>
+					<div class="inputBoxz">
+						<input type="text" name="">
+						<p class="text-left">3- 6 cherpcters</p>
+					</div>
+				</label>
+				<label>
+					<span>password:</span>
+					<div class="inputBoxz">
+						<input type="password" name="" min="0" max="12">
+						<p class="text-left">* Your passwords should be 6-12 characters； numbers.</p>
+					</div>
+				</label>
+				<label>
+					<span>confirm password:</span>
+					<div class="inputBoxz">
+						<input type="password" name="">
+					</div>
+				</label>
+				<label>
+					<span>email:</span>
+					<div class="inputBoxz">
+						<input type="email" name="">
+						<p class="text-left">* This is only for receiving news up to date, your information will not be open to others.</p>
+					</div>
+				</label>
+			</div>
+			<button type="submit">JOIN NOW</button>
+		</form>
+
+	</section>
+</body>
+</html>
